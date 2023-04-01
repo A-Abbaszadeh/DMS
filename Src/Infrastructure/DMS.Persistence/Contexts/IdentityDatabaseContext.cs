@@ -24,7 +24,6 @@ namespace DMS.Persistence.Contexts
             //builder.Entity<User>().Property<DateTime?>("InsertTime");
             //builder.Entity<User>().Property<DateTime?>("UpdateTime");
 
-
             DeclareAuditField(builder);
 
             SetTableKey(builder);

@@ -21,6 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\DMS.Infrastructure\DMS.Infrastructure.csproj" />
     <ProjectReference Include="..\..\Infrastructure\DMS.Persistence\DMS.Persistence.csproj" />
   </ItemGroup>
 
